@@ -1,5 +1,13 @@
 # @sveltejs/adapter-cloudflare
 
+## 8.0.1
+
+### Patch Changes
+
+- fix: start the dev server on runtimes such as Deno that define `caches` as a getter-only global ([#17401](https://github.com/sveltejs/kit/pull/17401))
+- Updated dependencies:
+  - @sveltejs/kit@3.1.0
+
 ## 8.0.0
 
 ### Major Changes
